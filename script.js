@@ -91,6 +91,5 @@ sortSelect.addEventListener("change", () => {
   renderTasks(document.querySelector(".filter-btn.active")?.dataset.filter || "all");
 });
 
-// Initial render
 document.querySelector(".filter-btn[data-filter='all']").classList.add("active");
 renderTasks();
