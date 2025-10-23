@@ -132,6 +132,5 @@ taskInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") addTaskBtn.click();
 });
 
-// === Initialize ===
 document.querySelector(".filter-btn[data-filter='all']").classList.add("active");
 renderTasks();
