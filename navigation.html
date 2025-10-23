@@ -3,32 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VRCafe Todo App</title>
+  <title>VR Cafe</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="nav-left">
-      <img src="https://www.vrcafehaarlem.nl/images/logo.webp" alt="VRCafe Logo" class="logo" />
-    </div>
+  <!-- HEADER -->
+  <div class="header-container">
+    <header class="navbar">
+      <div class="logo-container">
+        <img src="https://www.vrcafehaarlem.nl/images/logo.webp" alt="VRCafe Logo" class="logo" />
+      </div>
 
-    <ul class="nav-links">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">TODO APP</a></li>
-      <li><a href="#">PROJECTEN</a></li>
-      <li><a href="#">CONTACT</a></li>
-    </ul>
+      <ul class="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ACTIVITEITEN</a></li>
+        <li><a href="#">GROEPEN</a></li>
+        <li><a href="#">ZAKELIJK</a></li>
+        <li><a href="#">GAMES</a></li>
+        <li><a href="#">INFO</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
 
-    <button class="hamburger-btn">&#9776;</button>
+      <button class="hamburger-btn">&#9776;</button>
 
-    <div class="nav-right">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg" alt="Dutch flag" class="flag" />
-      <button class="book-btn">BOEK NU</button>
-    </div>
-  </header>
+      <div class="nav-right">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg" alt="Dutch flag" class="flag" />
+        <button class="book-btn">BOEK NU</button>
+      </div>
+    </header>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>VR CAFE</h1>
+    <p>Beheer je taken in stijl met de VR Cafe ervaring</p>
+  </section>
 
   <!-- MAIN -->
   <main class="container">
@@ -55,6 +66,7 @@
       </select>
     </section>
 
+    <!-- Progress Bars -->
     <section id="progressSection" class="progress-section">
       <div class="progress-bar-container">
         <label>Werk</label>
@@ -66,7 +78,7 @@
       </div>
       <div class="progress-bar-container">
         <label>Vrije tijd</label>
-        <div class="progress-bar"><div class="progress-fill" id="progressVrijeTijd"></div></div>
+        <div class="progress-bar"><div class="progress-fill" id="progressVrijetijd"></div></div>
       </div>
     </section>
 
